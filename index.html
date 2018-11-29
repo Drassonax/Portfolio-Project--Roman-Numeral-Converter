@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Roman numeral converter</title>
+</head>
+<body>
+    <div id="header">
+        <h1 id="title" class="description">Roman numeral converter</h1>
+        <h3 id="subtitle" class="description">Convert an Arabic numeral into a Roman numeral</h3>
+    </div>
+    <div id="convert-to-roman">
+        <div id="box">
+            <div id="input">
+                <input type="text" placeholder="Enter an Arabic numeral" id="arabic-numeral">
+                <button type="button" id="submit-arabic">Submit</button>
+            </div>
+            <div id="results">
+                <div id="arabic-error"></div>
+                <div id="arabic-result"></div>
+                <div id="roman-result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./convertToRoman.js"></script>
+    <script src="./convertToArabic.js"></script>
+    <script src="./converter.js"></script>
+</body>
+</html>
